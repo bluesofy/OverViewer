@@ -32,3 +32,6 @@ dependencies {
 
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
 }
+
+apply from: 'install.gradle'
+apply from: 'bintray.gradle'
