@@ -1,0 +1,39 @@
+ext {
+    // Sdk and tools
+    compileSdkVersion = 28
+    minSdkVersion = 16
+    targetSdkVersion = 28
+
+    // Libs dependencies
+    supportLibraryVersion = '28.0.0'
+    junitVersion = '4.12'
+    runnerVersion = '1.0.2'
+    espressoVersion = '3.0.2'
+
+    // version
+    versionCode = '100'
+
+    // Bin-tray
+    bintrayRepo = 'maven'
+    bintrayName = 'OverViewer'
+
+    publishedGroupId = 'cn.byk.pandora'
+    artifact = 'overviewer'
+    libraryName = 'OverViewer'
+    libraryVersion = '1.0.0'
+
+    libraryDescription = '3D OverViewer Of Layout Layers, Based On "ScalpelFrameLayout" Lib From JakeWharton.'
+
+    siteUrl = 'https://github.com/bluesofy/OverViewer'
+    gitUrl = 'https://github.com/bluesofy/OverViewer.git'
+    javaDocUrl = 'https://github.com/bluesofy/OverViewer/tree/master/RotatingView/docs/javadoc'
+    issuesUrl = 'https://github.com/bluesofy/OverViewer/issues'
+
+    developerId = 'bluesofy'
+    developerName = 'Byk'
+    developerEmail = 'bluesofy@live.cn'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
