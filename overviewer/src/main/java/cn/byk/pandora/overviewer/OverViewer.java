@@ -63,6 +63,11 @@ public class OverViewer {
         return this;
     }
 
+    public OverViewer alarmLayer(int index) {
+        mPanel.setAlarmLayer(index);
+        return this;
+    }
+
     public ViewerContainer wrap(View contentView) {
         mPanel.addView(contentView);
         return mContainer;
