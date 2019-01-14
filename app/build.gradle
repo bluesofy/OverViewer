@@ -25,7 +25,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation project(':overviewer')
+//    implementation project(':overviewer')
+    implementation 'cn.byk.pandora:overviewer:1.0.0'
 
     testImplementation "junit:junit:$rootProject.junitVersion"
     androidTestImplementation "com.android.support.test:runner:$rootProject.runnerVersion"
