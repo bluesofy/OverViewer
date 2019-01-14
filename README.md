@@ -33,13 +33,13 @@ OverViewer.with(this, TAG)
 | 方法名 | 参数 | 用途 |
 | :---- | :---- | :---- |
 | with(Context context, String tag) | context：上下文 <br> tag：标题显示  | 初始化基本参数 |
-| enable(boolean enable) | enable：true表示功能启用 | 查看器渲染开关 |
+| enable(boolean enable) | enable：true 表示功能启用 | 查看器渲染开关 |
 | drawViews(boolean enable) | 同上 | 是否绘制原有 View 内容 |
 | drawIds(boolean enable) | 同上 | 是否绘制 ViewId |
 | borderColor(int safeColor, int alarmColor) | safeColor：布局轮廓线正常颜色 <br> alarmColor：布局层次过深警告颜色 | 自定义轮廓线颜色 |
 | textColor(int color) | color：文字颜色 | ViewId 文字颜色 |
 | alarmLayer(int index) | index：层次深度警告层（默认值：3） | 自定义层次深度警告层值 |
-| wrap(View contentView) | contentView：页面布局View | 当前页面的Layout布局，设置后才能根据布局绘制轮廓线 |
+| wrap(View contentView) | contentView：页面布局 View | 当前页面的 Layout 布局，设置后才能根据布局绘制轮廓线 |
 
 
 ### 联系方式  Support or Contact
